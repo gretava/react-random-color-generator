@@ -1,0 +1,29 @@
+.App {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.App > div {
+  font-size: 50px;
+  text-align: center;
+}
+
+.btn {
+  color: black;
+  letter-spacing: 2px;
+  font-size: 16px;
+  font-weight: 550;
+  text-transform: uppercase;
+  background: transparent
+    linear-gradient(
+      rgba(196, 200, 201, 0.2) 0%,
+      rgba(113, 113, 117, 0.2) 40%,
+      rgba(5, 4, 5, 0.2) 100%
+    );
+  border-radius: 20px;
+  height: 50px;
+  width: 186px;
+  border: 2px;
+}
